@@ -1,0 +1,111 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  h1{
+    font-size: 10rem;
+    margin-top: 5rem;
+    margin-left: 17rem;
+}
+  .uno{
+    
+    width: 27.4rem;
+    height: 27rem;
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    place-content: center;
+    cursor: pointer;
+    font-size: 30rem;
+    
+    
+  }
+  .dos{
+   
+    color:darkorange;
+    padding: 3.6rem;
+    margin-top:1rem;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    color:darkorange;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10rem;
+    gap: 15px;
+    width: fit-content;
+}
+.turno{
+    display: flex;
+    justify-content: center;
+    margin-left: 18rem;
+    
+    
+}
+.square.es-selecionado{
+    color: #fff;
+    background-color: #89f;
+}
+.gadador{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.ganador .text {
+  background: #111;
+  height: 300px;
+  width: 320px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.gadador .win {
+  margin: 0 auto;
+  width: fit-content;
+  border: 2px solid rgb(238, 238, 238);
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.nuevo-juego{
+  
+  width: 17rem;
+  height: 5rem;
+  font-size: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.nuevo-juego:hover{
+  background-color: #89f;
+  color: rgb(93, 108, 189);
+}
+
+.empate{
+  position: absolute;
+  width: 17rem;
+  height: 5rem;
+  font-size: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.empate:hover{
+  background-color: #89f;
+  color: rgb(93, 108, 189);
+}
